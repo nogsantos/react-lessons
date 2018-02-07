@@ -1,0 +1,22 @@
+#root {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+button{
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 2em;
+    padding: 15px;
+    margin: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+button:hover{
+    background: moccasin;
+}
+label{
+    text-align: center;
+    font-size: 5em;
+    display: block;
+}
