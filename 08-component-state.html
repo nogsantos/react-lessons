@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Component state</title>
     <link rel="stylesheet" href="./default.css">
 </head>
 
@@ -42,7 +42,7 @@
                 const {lapse, running} = this.state;
                 return (
                     <div>
-                        <label>{lapse}ms</label>
+                        <h1>{lapse}ms</h1>
                         <button onClick={this.handleRunClick}>{running ? 'Stop' : 'Start'}</button>
                         <button onClick={this.handleClearClick}>Clear</button>
                     </div>
