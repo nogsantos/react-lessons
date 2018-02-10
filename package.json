@@ -1,38 +1,40 @@
 {
-    "name": "react-lessons",
-    "version": "0.0.0",
-    "description": "Just some react lessons",
-    "main": "dist/index.js",
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nogsantos/react-lessons.git"
-    },
-    "keywords": [
-        "react",
-        "lessons",
-        "learning"
-    ],
-    "author": "Fabricio Nogueira <nogsantos@gmail.com> (http://fabricionogueira.me/)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/nogsantos/react-lessons/issues"
-    },
-    "homepage": "https://github.com/nogsantos/react-lessons#readme",
-    "dependencies": {
-        "axios": "0.17.1",
-        "prop-types": "15.6.0",
-        "react": "16.2.0",
-        "react-dom": "16.2.0",
-        "react-router-dom": "4.2.2",
-        "react-scripts": "1.1.0",
-        "vanilla-tilt": "1.4.1"
-    },
-    "devDependencies": {}
+  "name": "react-lessons",
+  "version": "0.0.0",
+  "description": "Just some react lessons",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogsantos/react-lessons.git"
+  },
+  "keywords": [
+    "react",
+    "lessons",
+    "learning"
+  ],
+  "author": "Fabricio Nogueira <nogsantos@gmail.com> (http://fabricionogueira.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nogsantos/react-lessons/issues"
+  },
+  "homepage": "https://github.com/nogsantos/react-lessons#readme",
+  "dependencies": {
+    "axios": "0.17.1",
+    "prop-types": "15.6.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.1.0",
+    "vanilla-tilt": "1.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "1.1.0"
+  }
 }
