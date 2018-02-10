@@ -10,6 +10,10 @@ import EventHandlers from './EventHandlers';
 import ComponentState from './ComponentState';
 import ClassComponents from './ClassComponents';
 import ManipulateTheDom from './ManipulateTheDom';
+import BasicForms from './BasicForms';
+import ControllingFormValues from './ControllingFormValues';
+import RenderingLists from './RenderingLists';
+import MakeHttpRequests from './MakeHttpRequests';
 /**
  * The Main component renders one of the three provided
  * Routes (provided that one matches). Both the /roster
@@ -35,6 +39,10 @@ class Main extends React.Component {
                     <Route path='/component-state' component={ComponentState}/>
                     <Route path='/class-components' component={ClassComponents}/>
                     <Route path='/manipulate-the-dom' component={ManipulateTheDom}/>
+                    <Route path='/basic-forms' component={BasicForms}/>
+                    <Route path='/controlling-form-values' component={ControllingFormValues}/>
+                    <Route path='/rendering-lists' component={RenderingLists}/>
+                    <Route path='/make-http-requests' component={MakeHttpRequests}/>
                 </Switch>
             </main>
         );

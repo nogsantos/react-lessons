@@ -67,7 +67,7 @@ class ComponentState extends React.Component {
         const {lapse, running} = this.state;
         return (
             <div>
-                <div className="text-large">{lapse}ms</div>
+                <div className="flow-text">{lapse}ms</div>
                 <button onClick={this.handleRunClick}>{running ? 'Stop' : 'Start'}</button>
                 <button onClick={this.handleClearClick}>Clear</button>
             </div>

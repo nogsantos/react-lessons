@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-materialize';
 /**
  *
  *
@@ -38,9 +39,9 @@ class ClassComponents extends React.Component {
      */
     render() {
         return (
-            <button onClick={this.handleClick}>
+            <Button floating large className='purple' waves='light' onClick={this.handleClick}>
                 {this.state.count}
-            </button>
+            </Button>
         );
     }
 }

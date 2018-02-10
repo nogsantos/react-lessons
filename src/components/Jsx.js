@@ -18,7 +18,7 @@ class Jsx extends React.Component {
             children: 'hello world'
         };
         return (
-            <div { ...props} />
+            <span className="flow-text" { ...props} />
         );
     }
 }
